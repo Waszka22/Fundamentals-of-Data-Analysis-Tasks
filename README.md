@@ -6,7 +6,7 @@ ___
 ### Source 
 
 ### Programing Language 
-* [Python] (https://www.python.org/)
+* [Python](https://www.python.org/)
 
 ## Important Library 
 * random
@@ -27,10 +27,28 @@ ways get stuck in the repeating sequence 1, 4, 2, 1, 4, 2, . . .
 Your task is to verify, using Python, that the conjecture is true for
 the first 10,000 positive integers.
 
-2. Give an overview of the famous penguins data set,2 explaining
-the types of variables it contains. Suggest the types of variables
-that should be used to model them in Python, explaining your
-rationale.
+## 2. Give an overview of the famous penguins data set, explaining the types of variables it contains. Suggest the types of variables that should be used to model them in Python, explaining your rationale.
+
+The penguins data set has 7 columns and 344 rows.
+
+The dataset inclueds the following types of variables: 
+
+Categorical Variables:
+
+  * Species: the varibales represent the species of the penguin (Adelie, Chinstrap, Gentoo)
+  * Island:the variable represent the island where the penuin was observed (Torgersen, Dream, Biscoe)
+  * Sex: represent the gender of the penguin (Male or Femal)
+
+Numeric Variables:
+
+* Bill Length : the variable represents the length of the penguin's beak in millimeters(mm). This varibale is continuous numeric variable    
+* Bill Depth: the variable represents the depth of the penguin's beak in millimeters(mm)
+* Flipper Length: represents the penguis's fin in milimiters (mm)
+* Body Mass : the variable represnets the penguin's body weight in grams (g)
+
+ ![Alt text](Pinwiny.png)
+
+
 
 3. For each of the variables in the penguins data set, suggest what 
 probability distribution from the numpy random distributions list
