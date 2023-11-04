@@ -27,9 +27,11 @@ ways get stuck in the repeating sequence 1, 4, 2, 1, 4, 2, . . .
 Your task is to verify, using Python, that the conjecture is true for
 the first 10,000 positive integers.
 
-## 2. Give an overview of the famous penguins data set, explaining the types of variables it contains. Suggest the types of variables that should be used to model them in Python, explaining your rationale.
+# 2. Give an overview of the famous penguins data set, explaining the types of variables it contains. Suggest the types of variables that should be used to model them in Python, explaining your rationale.
 
 The penguins data set has 7 columns and 344 rows.
+
+ ![Alt text](Pinwiny.png)
 
 The dataset inclueds the following types of variables: 
 
@@ -39,6 +41,7 @@ Categorical Variables:
   * Island:the variable represent the island where the penuin was observed (Torgersen, Dream, Biscoe)
   * Sex: represent the gender of the penguin (Male or Femal)
 
+All categorical variables are continuous 
 Numeric Variables:
 
 * Bill Length : the variable represents the length of the penguin's beak in millimeters(mm). This varibale is continuous numeric variable    
@@ -46,7 +49,7 @@ Numeric Variables:
 * Flipper Length: represents the penguis's fin in milimiters (mm)
 * Body Mass : the variable represnets the penguin's body weight in grams (g)
 
- ![Alt text](Pinwiny.png)
+
 
 
 
