@@ -42,6 +42,7 @@ Categorical Variables:
   * Sex: represent the gender of the penguin (Male or Femal)
 
 All categorical variables are continuous 
+
 Numeric Variables:
 
 * Bill Length : the variable represents the length of the penguin's beak in millimeters(mm). This varibale is continuous numeric variable    
@@ -62,4 +63,4 @@ giving heads. Plot the entropy of the total number of heads versus
 p.
 
 5. Create an appropriate individual plot for each of the variables in
-the penguin data set.5
+the penguin data set.
